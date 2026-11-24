@@ -1,0 +1,26 @@
+# ==========================================
+#  WaveBossy - konfiguracja
+#  Po zmianie wpisz w grze: /wavebossy reload
+#  Kolory: uzywaj znaku & (np. &c = czerwony)
+# ==========================================
+
+prefix: "&6[WaveBossy] &r"
+
+# Co ile sekund boss wykonuje atak
+attack-cooldown-seconds: 6
+
+# Z jakiej odleglosci (w blokach) gracze widza bossbar i scoreboard
+view-range: 40
+
+# Wartosci startowe dla nowo tworzonych bossow
+# attack: 0-99 (10 mechanik x 10 sily, np. 0 = SLAM 1, 9 = SLAM 10, 10 = LIGHTNING 1)
+# animation: NONE, RING, PILLAR, SPIRAL, BURST, RAIN, SOUL, CRACK, HELIX, WAVE
+defaults:
+  hp: 300
+  armor: 0
+  attack: 0
+  animation: RING
+  bossbar: true
+  scoreboard: true
+  show-hp: true
+  respawn-hours: 1
